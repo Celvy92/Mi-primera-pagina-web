@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda en Línea - Productos Asiáticos de Importación</title>
+    <style>
+        /* Importación de fuentes */
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Roboto:wght@400&display=swap');
+
+        /* Estilos de la página */
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f8e1da;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Barra de navegación */
+        .navbar {
+            background-color: #ffadc4;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .navbar a {
+            color: #333;
+            text-decoration: none;
+            padding: 8px 16px;
+            font-weight: bold;
+            font-family: 'Roboto', sans-serif;
+        }
+        .navbar a:hover {
+            background-color: #ffd1df;
+            border-radius: 5px;
+        }
+
+        /* Estilos del contenedor de productos */
+        .store-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            width: 90%;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        .product-card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 280px;
+            padding: 15px;
+            text-align: center;
+        }
+        .product-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        .product-name {
+            font-family: 'Dancing Script', cursive;
+            font-size: 1.4em;
+            font-weight: bold;
+            color: #333;
+            margin: 10px 0;
+        }
+        .product-description {
+            font-size: 1em;
+            color: #666;
+        }
+        .product-price {
+            font-size: 1.1em;
+            color: #ff6347;
+            margin: 10px 0;
+        }
+        .payment-methods {
+            margin-top: 10px;
+            font-size: 0.9em;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Barra de navegación -->
+    <div class="navbar">
+        <a href="index.html">Sobre mi</a>
+        <a href="catalogoproductos.html">Catálogo de Productos</a>
+    </div>
+
+    <!-- Contenedor de productos -->
+    <div class="store-container">
+        <!-- Producto 1 -->
+        <div class="product-card">
+            <img src="kpop_album.jpg" alt="Álbum de K-Pop">
+            <h3 class="product-name">Álbum de K-Pop edición especial</h3>
+            <p class="product-description">Edición limitada con photocards y póster exclusivo. Artista: BTS.</p>
+            <p class="product-price">$35 USD</p>
+            <p class="payment-methods">Formas de pago: Tarjeta, PayPal, Transferencia</p>
+        </div>
+
+        <!-- Producto 2 -->
+        <div class="product-card">
+            <img src="matcha_kit.jpg" alt="Kit de Té Matcha">
+            <h3 class="product-name">Kit de Té Matcha Japonés</h3>
+            <p class="product-description">Kit completo para preparar matcha con utensilios tradicionales japoneses.</p>
+            <p class="product-price">$45 USD</p>
+            <p class="payment-methods">Formas de pago: Tarjeta, PayPal, Transferencia</p>
+        </div>
+
+        <!-- Producto 3 -->
+        <div class="product-card">
+            <img src="bento_box.jpg" alt="Caja Bento de Acero Inoxidable">
+            <h3 class="product-name">Caja Bento de Acero Inoxidable</h3>
+            <p class="product-description">Diseño japonés, ecológica y perfecta para llevar alimentos.</p>
+            <p class="product-price">$25 USD</p>
+            <p class="payment-methods">Formas de pago: Tarjeta, PayPal, Transferencia</p>
+        </div>
+
+        <!-- Producto 4 -->
+        <div class="product-card">
+            <img src="jfashion_accessories.jpg" alt="Accesorios de moda japonesa">
+            <h3 class="product-name">Accesorios de Moda Japonesa</h3>
+            <p class="product-description">Collares y pulseras inspirados en tendencias Harajuku.</p>
+            <p class="product-price">$15 USD</p>
+            <p class="payment-methods">Formas de pago: Tarjeta, PayPal, Transferencia</p>
+        </div>
+
+        <!-- Producto 5 -->
+        <div class="product-card">
+            <img src="ramen_kit.jpg" alt="Kit de Ramen Coreano">
+            <h3 class="product-name">Kit de Ramen Picante Coreano</h3>
+            <p class="product-description">Ramen auténtico coreano con opciones de salsa picante.</p>
+            <p class="product-price">$20 USD</p>
+            <p class="payment-methods">Formas de pago: Tarjeta, PayPal, Transferencia</p>
+        </div>
+
+        <!-- Producto 6 -->
+        <div class="product-card">
+            <img src="jpop_merch.jpg" alt="Merch de J-Pop">
+            <h3 class="product-name">Merch de J-Pop edición especial</h3>
+            <p class="product-description">Camisas, posters y accesorios de tus idols favoritos.</p>
+            <p class="product-price">$30 USD</p>
+            <p class="payment-methods">Formas de pago: Tarjeta, PayPal, Transferencia</p>
+        </div>
+
+        <!-- Producto 7 -->
+        <div class="product-card">
+            <img src="anime_figura.jpg" alt="Figura de Anime Edición Limitada">
+            <h3 class="product-name">Figura de Anime Edición Limitada</h3>
+            <p class="product-description">Figura coleccionable del personaje principal de 'Demon Slayer'.</p>
+            <p class="product-price">$60 USD</p>
+            <p class="payment-methods">Formas de pago: Tarjeta, PayPal, Transferencia</p>
+        </div>
+
+        <!-- Producto 8 -->
+        <div class="product-card">
+            <img src="led_lights.jpg" alt="Luces LED decorativas">
+            <h3 class="product-name">Luces LED Decorativas para Habitación</h3>
+            <p class="product-description">Perfectas para ambientar tu espacio al estilo asiático.</p>
+            <p class="product-price">$18 USD</p>
+            <p class="payment-methods">Formas de pago: Tarjeta, PayPal, Transferencia</p>
+        </div>
+
+        <!-- Producto 9 -->
+        <div class="product-card">
+            <img src="face_mask.jpg" alt="Mascarillas de Cuidado Facial">
+            <h3 class="product-name">Mascarillas Coreanas de Cuidado Facial</h3>
+            <p class="product-description">Set de 10 mascarillas con ingredientes naturales.</p>
+            <p class="product-price">$22 USD</p>
+            <p class="payment-methods">Formas de pago: Tarjeta, PayPal, Transferencia</p>
+        </div>
+
+        <!-- Producto 10 -->
+        <div class="product-card">
+            <img src="plush_doll.jpg" alt="Peluche de Personaje de Anime">
+            <h3 class="product-name">Peluche de Personaje de Anime</h3>
+            <p class="product-description">Peluche suave del personaje Totoro de Studio Ghibli.</p>
+            <p class="product-price">$28 USD</p>
+            <p class="payment-methods">Formas de pago: Tarjeta, PayPal, Transferencia</p>
+        </div>
+    </div>
+
+</body>
+</html>
